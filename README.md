@@ -35,27 +35,30 @@ A modern React + Redux web application for managing songs — add, edit, delete,
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/song-manager.git
-cd song-manager
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Run the development server
-bash
-Copy
-Edit
-npm start
-4. Run tests
-bash
-Copy
-Edit
-npm test
-Make sure you have Node.js and npm installed (preferably Node 18+)
+    git clone https://github.com/your-username/song-manager.git
+    cd song-manager
+### 2. Install dependencies
+    bash
+    Copy
+    Edit
+    npm install
+### 3. Run the development server
+    bash
+    Copy
+    Edit
+    npm start
+### 4. Run tests
+    bash
+    Copy
+    Edit
+    npm test
+    Make sure you have Node.js and npm installed (preferably Node 18+)
 
-⚙️ Webpack Configuration
-This project uses a custom Webpack setup, not Create React App.
+---
+
+## ⚙️ Webpack Configuration
+
+### This project uses a custom Webpack setup, not Create React App.
 
 Key Features:
 babel-loader for JSX/ES6 support
