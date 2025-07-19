@@ -80,6 +80,7 @@ output: {
   path: path.resolve(__dirname, 'dist'),
   filename: 'bundle.js',
 }
+Extensions: Supports `.js` and `.jsx` files without explicit extension in imports
 
 ```
 # 🧠 AI Usage
