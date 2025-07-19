@@ -83,7 +83,7 @@ const tableStyle = css`
 
   }
 
-  /* 🔁 Responsive tweaks */
+  /*  Responsive tweaks */
   @media (max-width: 600px) {
     th, td {
       padding: 6px;
