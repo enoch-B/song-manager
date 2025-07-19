@@ -1,5 +1,7 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
+   
+  "presets": [
+     "@babel/preset-env",
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ]
 }
-// This Babel configuration file is used to transpile modern JavaScript and React code
-// into a format that is compatible with older browsers. It includes the necessary presets
