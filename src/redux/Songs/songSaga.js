@@ -81,7 +81,7 @@ function* handleUpdateSong(action) {
     const data = yield response.json();
 
     yield put(updateSongSuccess(data));
-    toast.info('Song updated!');
+    toast.info('Song updated');
 
   } catch (error) {
     yield put(updateSongFailure(error.message));
